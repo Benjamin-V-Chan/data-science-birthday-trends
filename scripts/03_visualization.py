@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
+import os
 
 def visualize_birth_trends(input_file, output_folder):
     df = pd.read_csv(input_file, parse_dates=['date'])

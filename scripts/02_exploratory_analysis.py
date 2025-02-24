@@ -1,3 +1,5 @@
+import pandas as pd
+
 def exploratory_analysis(input_file, output_file):
     df = pd.read_csv(input_file, parse_dates=['date'])
     

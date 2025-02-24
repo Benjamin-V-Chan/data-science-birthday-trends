@@ -1,3 +1,5 @@
+import pandas as pd
+
 def summarize_results(exploratory_file, forecast_file, output_file):
     with open(exploratory_file, "r") as f:
         exploratory_results = f.read()

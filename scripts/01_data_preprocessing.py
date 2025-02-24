@@ -1,5 +1,4 @@
 import pandas as pd
-import os
 
 def preprocess_data(input_file, output_file):
     df = pd.read_csv(input_file)
